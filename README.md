@@ -1,9 +1,12 @@
 # Algoritmo Genético para função Ackey
-Algoritmo genético para achar o mínimo da **Função Ackey**
+
+![MATLAB R2023b](https://img.shields.io/badge/MATLAB-R2023b-gray?labelColor=0076A7)
+
+O projeto foi criado no decorrer da disciplina de Inteligência Computacional do curso de Engenharia de Computação da Universidade Federal do Ceará (Campus Sobral) e se trata de uma implementação simples de Algoritmos genéticos para achar o mínimo da **Função Ackey**
 
 $$ f(x,y) = -20\exp{ [ -2.0 \sqrt{ 0.5( x^2 + y^2 ) } ] } -\exp{ [ 0.5( \cos{ 2\pi x} + \cos{2 \pi y} ) ] } + \exp{ (1) } + 20 $$
 
-No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$
+No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$.
 
 ## Requisitos
 
@@ -18,4 +21,8 @@ No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$
     - [ ] Os vinte últimos representam $y$
   - [ ] Exibir os valores $x$ e $y$ do menor valor encontrado para $f(x, y)$
 
- 
+ ## Autores
+
+| ![](https://gravatar.com/avatar/30de07d052ecd822f860c4c0553b52f2?s=200&d=robohash&r=x) |
+|----------------------------------------------------------------------------------------|
+| [Robson Mesquita Gomes](https://github.com/rob-ec)                                     |
