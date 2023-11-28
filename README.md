@@ -1,4 +1,4 @@
-# Algoritmo Genético para função Ackey
+# Algoritmo Genético para função Ackley
 
 ![MATLAB R2023b](https://img.shields.io/badge/MATLAB-R2023b-gray?labelColor=0076A7)
 
@@ -7,6 +7,8 @@ O projeto foi criado no decorrer da disciplina de Inteligência Computacional do
 $$ f(x,y) = -20\exp{ [ -0.2 \sqrt{ 0.5( x^2 + y^2 ) } ] } -\exp{ [ 0.5( \cos{ 2\pi x} + \cos{2 \pi y} ) ] } + \exp{ (1) } + 20 $$
 
 No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$.
+
+![Gráfico da função Ackley](demo/ackley.png)
 
 ## Requisitos
 
