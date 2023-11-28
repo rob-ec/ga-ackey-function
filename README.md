@@ -4,7 +4,7 @@
 
 O projeto foi criado no decorrer da disciplina de Inteligência Computacional do curso de Engenharia de Computação da Universidade Federal do Ceará (Campus Sobral) e se trata de uma implementação simples de Algoritmos genéticos para achar o mínimo da **Função Ackey**
 
-$$ f(x,y) = -20\exp{ [ -2.0 \sqrt{ 0.5( x^2 + y^2 ) } ] } -\exp{ [ 0.5( \cos{ 2\pi x} + \cos{2 \pi y} ) ] } + \exp{ (1) } + 20 $$
+$$ f(x,y) = -20\exp{ [ -0.2 \sqrt{ 0.5( x^2 + y^2 ) } ] } -\exp{ [ 0.5( \cos{ 2\pi x} + \cos{2 \pi y} ) ] } + \exp{ (1) } + 20 $$
 
 No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$.
 
