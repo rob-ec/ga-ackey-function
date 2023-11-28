@@ -25,6 +25,20 @@ No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$.
 
  ## Autores
 
-| ![](https://gravatar.com/avatar/30de07d052ecd822f860c4c0553b52f2?s=200&d=robohash&r=x) |
-|----------------------------------------------------------------------------------------|
-| [Robson Mesquita Gomes](https://github.com/rob-ec)                                     |
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/MarianaTc18" target="_blank">
+        <img loading="lazy" src="https://avatars.githubusercontent.com/u/35478207?v=4" width=115 >
+        <br>
+        <sub>Mariana Texeira</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rob-ec" target="_blank">
+        <img loading="lazy" src="https://avatars.githubusercontent.com/u/20346702?v=4" width=115 >
+        <br>
+        <sub>Robson Gomes</sub>
+      </a>
+    </td>
+</table>
