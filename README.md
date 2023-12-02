@@ -17,11 +17,11 @@ No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$.
   - [ ] `Requisito 03`: A cada geração, o algoritmo deverá exibir:
     - [ ] Nota média de avaliação da população
     - [ ] Nota do pior indivíduo (com a percentagens de roleta)
-    - [ ] Nota do melhor indivíduo (com a percentagens de roleta)
+    - [X] Nota do melhor indivíduo (com a percentagens de roleta)
   - [ ] Cada indivíduo da população deve ser um vetor binário de `40 bits`
     - [ ] Os vinte primeiros representam $x$
     - [ ] Os vinte últimos representam $y$
-  - [ ] Exibir os valores $x$ e $y$ do menor valor encontrado para $f(x, y)$
+  - [X] Exibir os valores $x$ e $y$ do menor valor encontrado para $f(x, y)$
 
  ## Autores
 
