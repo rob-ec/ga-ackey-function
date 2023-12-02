@@ -12,8 +12,8 @@ No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$.
 
 ## Requisitos
 
-  - [ ] `Requisito 01`: Encontrar o mínimo da função no intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$;
-  - [ ] `Requisito 02`: O programa deverá efetuar a seleção dos pais por meio do **método da roleta**;
+  - [X] `Requisito 01`: Encontrar o mínimo da função no intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$;
+  - [X] `Requisito 02`: O programa deverá efetuar a seleção dos pais por meio do **método da roleta**;
   - [ ] `Requisito 03`: A cada geração, o algoritmo deverá exibir:
     - [ ] Nota média de avaliação da população
     - [ ] Nota do pior indivíduo (com a percentagens de roleta)
