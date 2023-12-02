@@ -10,6 +10,10 @@ No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$.
 
 ![Gráfico da função Ackley](demo/ackley.png)
 
+## Execução
+
+O arquivo principal do projeto é o [min_ackley.m](min_ackley.m)
+
 ## Requisitos
 
   - [X] `Requisito 01`: Encontrar o mínimo da função no intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$;
@@ -23,7 +27,11 @@ No intervalo $x$ $\in$ $[-10,10]$ e $y$ $\in$ $[-10,10]$.
     - [ ] Os vinte últimos representam $y$
   - [X] Exibir os valores $x$ e $y$ do menor valor encontrado para $f(x, y)$
 
- ## Autores
+## Demo
+
+[](demo/demo.png)
+
+## Autores
 
 <table>
   <tr>

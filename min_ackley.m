@@ -2,12 +2,12 @@
 %         Robson Mesquita Gomes - 399682
 % 
 % implementar um script seguindo um algoritmo genético para minimizar a função 
-% f(x,y) = -20*exp(-0.2*sqrt(0.5*(Xi^2 + Yi^2))) - exp(0.5*(cos(2*pi*Xi)+cos(2*pi*Yi)))+exp(1)+20
+% f(x,y) = -20*exp(-0.2*sqrt(0.5*(Xi^2 + Yi^2))) - exp(0.5*(cos(2*pi*Xi)+cos(2*pi*Yi)))+exp(1)+20;
 
+% Função principal
 function main()
-
-    geracoes = 10;
-    tamanho_populacao = 100;
+    geracoes = 10; % numero de gerações para a população
+    tamanho_populacao = 100; % populacao 100 individuos
 
     % Inicializar população aleatória
     populacao = randi([0, 1], tamanho_populacao, 20);
@@ -54,11 +54,13 @@ function main()
     title(strcat('X = ', num2str(X_melhor), ', Y = ', num2str(Y_melhor)))
 end
 
+% Função Objetivo - Ackley
 function f = funcao_objetivo(X, Y)
     % Ackley
     f = -20.0 * exp(-0.2 * sqrt(0.5*(X.^2 + Y.^2))) - exp(0.5 * (cos(X.* 2 * pi) + cos(Y.* 2 * pi))) + exp(1) + 20;
 end
 
+% Função que avalia população
 function notas = avaliar_populacao(populacao)
     X_bin = populacao(:, 1:10);
     Y_bin = populacao(:, 11:20);
@@ -69,6 +71,7 @@ function notas = avaliar_populacao(populacao)
     notas = funcao_objetivo(X, Y);
 end
 
+% FUnção que implementa roleta para escolha de pais
 function individuo = crossover(pais)
     filhos = [];
     for j = 1:2:100
@@ -86,6 +89,7 @@ function individuo = crossover(pais)
     individuo = filhos;
 end
 
+% Função que 
 function individuo_mutado = mutacao(individuo)
     prob_mutacao = 0.005;
     individuo_mutado = individuo;
@@ -99,6 +103,7 @@ function individuo_mutado = mutacao(individuo)
     end
 end
 
+% 
 function indice_selecionado = roleta(notas)
     probabilidade_selecao = notas / sum(notas);
     acumulado_probabilidade = cumsum(probabilidade_selecao);
@@ -106,6 +111,7 @@ function indice_selecionado = roleta(notas)
     indice_selecionado = find(acumulado_probabilidade >= aleatorio, 1);
 end
 
+% Fun
 function pais_selecionados = selecao_roleta(notas, quantidade)
     pais_selecionados = zeros(quantidade, 1);
 
@@ -114,6 +120,7 @@ function pais_selecionados = selecao_roleta(notas, quantidade)
     end
 end
 
+% Função que transforma de binário para decimal
 function decimal = binario_para_decimal(binario, limite_inferior, limite_superior)
     [n, m] = size(binario);
     expoentes = 2 .^ (m-1:-1:0);

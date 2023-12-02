@@ -1,5 +1,5 @@
 function main ()
-    plotAckley(-50,50,-50,50,50)
+    plotAckley(-10,10,-10,10,50)
 end
 
 function f = ackley(x, y)
